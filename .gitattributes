@@ -1,0 +1,8 @@
+# Normalise line endings so the repo is identical on Windows, Linux and inside
+# the Docker image. Without this, CRLF checked in from Windows breaks shell
+# scripts and Docker entrypoints on Linux.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
