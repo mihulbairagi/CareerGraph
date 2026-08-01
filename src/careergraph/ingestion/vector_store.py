@@ -103,9 +103,7 @@ class VectorStore:
         if not chunks:
             return
         if len(chunks) != len(embeddings):
-            raise ValueError(
-                f"chunk/embedding count mismatch: {len(chunks)} vs {len(embeddings)}"
-            )
+            raise ValueError(f"chunk/embedding count mismatch: {len(chunks)} vs {len(embeddings)}")
 
         self.collection.upsert(
             ids=[c.id for c in chunks],
