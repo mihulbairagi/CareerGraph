@@ -32,7 +32,7 @@ dev = [
 ]
 
 [project.scripts]
-careergraph-ingest = "careergraph.ingestion.pipeline:main"
+careergraph-ingest = "careergraph.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]

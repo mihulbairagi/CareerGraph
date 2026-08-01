@@ -108,7 +108,7 @@ class Settings(BaseSettings):
     # ------------------------------------------------------------------
     # Service
     # ------------------------------------------------------------------
-    api_host: str = "0.0.0.0"  # noqa: S104 - containers must bind all interfaces
+    api_host: str = "0.0.0.0"
     api_port: int = 8080
     log_level: Literal["DEBUG", "INFO", "WARNING", "ERROR"] = "INFO"
     log_format: Literal["text", "json"] = Field(

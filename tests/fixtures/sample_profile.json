@@ -1,0 +1,114 @@
+{
+  "name": "Test Candidate",
+  "headline": "Final-year CSE student | Backend and ML engineer",
+  "location": "Nagpur, Maharashtra, India",
+  "email": "test@example.com",
+  "links": {
+    "github": "https://github.com/testcandidate",
+    "linkedin": "https://linkedin.com/in/testcandidate",
+    "leetcode": "https://leetcode.com/testcandidate",
+    "codeforces": "",
+    "portfolio": ""
+  },
+  "about": [
+    "Test Candidate is a final-year Computer Science student who builds backend services and applied ML systems.",
+    "Particularly interested in retrieval systems, LLM tooling and distributed backends."
+  ],
+  "experience": [
+    {
+      "company": "TEXTR AI",
+      "role": "Machine Learning Intern",
+      "employment_type": "Internship",
+      "location": "Remote",
+      "start_date": "2025-01",
+      "end_date": "2025-06",
+      "summary": "Worked on the document understanding pipeline powering the core product.",
+      "highlights": [
+        "Built an OCR post-processing pipeline in Python that cut character error rate by 18%.",
+        "Fine-tuned a DistilBERT classifier for document type routing, reaching 94% F1."
+      ],
+      "tech": ["Python", "PyTorch", "Hugging Face Transformers", "FastAPI"]
+    },
+    {
+      "company": "Greyout",
+      "role": "Software Engineering Intern",
+      "employment_type": "Internship",
+      "location": "Nagpur, India",
+      "start_date": "2024-06",
+      "end_date": "2024-12",
+      "summary": "Full-stack work on the customer-facing dashboard.",
+      "highlights": [
+        "Migrated REST endpoints to a paginated design, reducing p95 latency from 1.2s to 240ms."
+      ],
+      "tech": ["Node.js", "React", "PostgreSQL"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Chit-Chat",
+      "tagline": "Real-time group messaging application",
+      "start_date": "2024-02",
+      "end_date": "2024-05",
+      "summary": "A real-time chat platform supporting group rooms, presence and message history.",
+      "highlights": [
+        "Implemented WebSocket fan-out sustaining 500 concurrent connections on a single node.",
+        "Added Redis-backed presence tracking with sub-100ms propagation."
+      ],
+      "tech": ["Node.js", "Socket.IO", "Redis", "MongoDB", "React"],
+      "repo": "https://github.com/testcandidate/chit-chat",
+      "demo": ""
+    },
+    {
+      "name": "CalAI",
+      "tagline": "Photo-based calorie estimation",
+      "start_date": "2024-08",
+      "end_date": "2024-11",
+      "summary": "Mobile-first app that estimates the calorie content of a meal from a photograph.",
+      "highlights": [
+        "Trained an EfficientNet-B0 food classifier over 101 classes at 82% top-1 accuracy.",
+        "Served inference through a FastAPI backend with a median response time of 310ms."
+      ],
+      "tech": ["Python", "PyTorch", "FastAPI", "React Native"],
+      "repo": "",
+      "demo": ""
+    }
+  ],
+  "skills": [
+    { "category": "Languages", "items": ["Python", "C++", "JavaScript", "TypeScript", "SQL"] },
+    { "category": "Machine Learning & AI", "items": ["PyTorch", "scikit-learn", "Hugging Face Transformers", "RAG"] },
+    { "category": "Backend & APIs", "items": ["FastAPI", "Node.js", "REST", "WebSockets"] },
+    { "category": "Data & Infrastructure", "items": ["PostgreSQL", "MongoDB", "Redis", "Docker", "Git"] }
+  ],
+  "education": [
+    {
+      "institution": "Shri Ramdeobaba College of Engineering and Management (RCOEM), Nagpur",
+      "degree": "B.Tech",
+      "field": "Computer Science and Engineering",
+      "start_year": "2022",
+      "end_year": "2026",
+      "score": "CGPA 8.6/10",
+      "coursework": ["Data Structures", "Algorithms", "Machine Learning", "DBMS", "Operating Systems"],
+      "notes": ""
+    }
+  ],
+  "achievements": [
+    {
+      "title": "LeetCode Knight",
+      "date": "2024-09",
+      "description": "Earned the Knight badge with a peak contest rating of 1875, solving 600+ problems.",
+      "link": ""
+    },
+    {
+      "title": "Codeforces Specialist",
+      "date": "2024-11",
+      "description": "Reached Specialist rank with a maximum rating of 1442 across 40 rated contests.",
+      "link": ""
+    }
+  ],
+  "certifications": [],
+  "preferences": {
+    "target_roles": ["Software Engineer (Backend)", "Machine Learning Engineer"],
+    "open_to_relocate": true,
+    "availability": "Full-time from June 2026"
+  }
+}

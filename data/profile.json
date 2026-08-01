@@ -1,0 +1,147 @@
+{
+  "$schema": "./profile.schema.json",
+  "_instructions": "Fill in every FILL_ME / TODO field with your real details, then run `make ingest` (or `python -m careergraph.ingestion.pipeline`). Keep the shape of this file identical — the ingestion chunker keys off these exact field names. Delete this `_instructions` key when you're done.",
+
+  "name": "Mihul Bairagi",
+  "headline": "FILL_ME — one line, e.g. 'Final-year CSE student | ML & full-stack engineer'",
+  "location": "Nagpur, Maharashtra, India",
+  "email": "FILL_ME",
+  "links": {
+    "github": "https://github.com/mihulbairagi",
+    "linkedin": "FILL_ME",
+    "leetcode": "FILL_ME",
+    "codeforces": "FILL_ME",
+    "portfolio": ""
+  },
+
+  "about": [
+    "FILL_ME — 2-4 sentences on who you are professionally: what you build, what you're strongest at, what kind of role you're looking for. Written in third person ('Mihul is...') because chunks are retrieved out of context and 'I' with no antecedent confuses the model.",
+    "FILL_ME — optional second paragraph: your engineering interests, e.g. retrieval systems, LLM tooling, backend infra."
+  ],
+
+  "experience": [
+    {
+      "company": "TEXTR AI",
+      "role": "FILL_ME — e.g. Machine Learning Intern",
+      "employment_type": "Internship",
+      "location": "FILL_ME — e.g. Remote",
+      "start_date": "FILL_ME — YYYY-MM",
+      "end_date": "FILL_ME — YYYY-MM or 'Present'",
+      "summary": "FILL_ME — one sentence on what the team/product does and what you owned.",
+      "highlights": [
+        "FILL_ME — bullet with a metric. Pattern: <action verb> <what> using <tech>, <quantified outcome>.",
+        "FILL_ME — second bullet.",
+        "FILL_ME — third bullet."
+      ],
+      "tech": ["FILL_ME", "FILL_ME"]
+    },
+    {
+      "company": "Greyout",
+      "role": "FILL_ME",
+      "employment_type": "Internship",
+      "location": "FILL_ME",
+      "start_date": "FILL_ME — YYYY-MM",
+      "end_date": "FILL_ME — YYYY-MM or 'Present'",
+      "summary": "FILL_ME",
+      "highlights": [
+        "FILL_ME",
+        "FILL_ME"
+      ],
+      "tech": ["FILL_ME"]
+    }
+  ],
+
+  "projects": [
+    {
+      "name": "Chit-Chat",
+      "tagline": "FILL_ME — one line on what it is.",
+      "start_date": "FILL_ME — YYYY-MM",
+      "end_date": "FILL_ME — YYYY-MM or 'Present'",
+      "summary": "FILL_ME — 2-3 sentences: the problem, your approach, the outcome.",
+      "highlights": [
+        "FILL_ME — include scale/metrics if you have them (concurrent users, latency, message throughput).",
+        "FILL_ME"
+      ],
+      "tech": ["FILL_ME"],
+      "repo": "",
+      "demo": ""
+    },
+    {
+      "name": "CalAI",
+      "tagline": "FILL_ME",
+      "start_date": "FILL_ME — YYYY-MM",
+      "end_date": "FILL_ME — YYYY-MM or 'Present'",
+      "summary": "FILL_ME",
+      "highlights": [
+        "FILL_ME",
+        "FILL_ME"
+      ],
+      "tech": ["FILL_ME"],
+      "repo": "",
+      "demo": ""
+    }
+  ],
+
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["FILL_ME — e.g. Python", "C++", "JavaScript", "TypeScript", "SQL"]
+    },
+    {
+      "category": "Machine Learning & AI",
+      "items": ["FILL_ME — e.g. PyTorch", "scikit-learn", "Hugging Face Transformers", "RAG", "LangGraph"]
+    },
+    {
+      "category": "Backend & APIs",
+      "items": ["FILL_ME — e.g. FastAPI", "Node.js", "REST", "WebSockets"]
+    },
+    {
+      "category": "Frontend",
+      "items": ["FILL_ME — e.g. React", "Next.js", "Tailwind CSS"]
+    },
+    {
+      "category": "Data & Infrastructure",
+      "items": ["FILL_ME — e.g. PostgreSQL", "MongoDB", "Redis", "ChromaDB", "Docker", "GitHub Actions", "AWS"]
+    },
+    {
+      "category": "Core CS",
+      "items": ["Data Structures & Algorithms", "Operating Systems", "DBMS", "Computer Networks", "OOP"]
+    }
+  ],
+
+  "education": [
+    {
+      "institution": "Shri Ramdeobaba College of Engineering and Management (RCOEM), Nagpur",
+      "degree": "FILL_ME — e.g. B.Tech",
+      "field": "FILL_ME — e.g. Computer Science and Engineering",
+      "start_year": "FILL_ME — e.g. 2022",
+      "end_year": "2026",
+      "score": "FILL_ME — e.g. CGPA 8.7/10",
+      "coursework": ["FILL_ME — e.g. Data Structures", "Algorithms", "Machine Learning", "DBMS", "Operating Systems"],
+      "notes": ""
+    }
+  ],
+
+  "achievements": [
+    {
+      "title": "LeetCode Knight",
+      "date": "FILL_ME — YYYY-MM",
+      "description": "FILL_ME — e.g. Achieved Knight badge (top X%) with a peak contest rating of NNNN; solved NNN+ problems across DP, graphs and binary search.",
+      "link": ""
+    },
+    {
+      "title": "Codeforces Specialist",
+      "date": "FILL_ME — YYYY-MM",
+      "description": "FILL_ME — e.g. Reached Specialist rank with a max rating of NNNN across NN rated contests.",
+      "link": ""
+    }
+  ],
+
+  "certifications": [],
+
+  "preferences": {
+    "target_roles": ["FILL_ME — e.g. Software Engineer (Backend)", "Machine Learning Engineer"],
+    "open_to_relocate": true,
+    "availability": "FILL_ME — e.g. Full-time from June 2026"
+  }
+}
